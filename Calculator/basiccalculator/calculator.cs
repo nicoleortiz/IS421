@@ -17,5 +17,18 @@ namespace basiccalculator
             return c;
         }
 
+        static public int Multiply(int a, int b)
+        {
+            var c = a * b;
+
+            return c;
+        }
+
+        static public double Divide(int a, int b)
+        {
+            var c = a / b;
+
+            return c;
+        }
     }
 }

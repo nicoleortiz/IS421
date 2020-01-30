@@ -23,5 +23,19 @@ namespace basiccalculator.Tests
             var c = Calculator.Subtract(1, 2);
             Assert.AreEqual(-1, c);
         }
+
+        [TestMethod()]
+        public void MultiplyTest()
+        {
+            var c = Calculator.Multiply(5, 6);
+            Assert.AreEqual(30, c);
+        }
+
+        [TestMethod()]
+        public void DivideTest()
+        {
+            var c = Calculator.Divide(99, 11);
+            Assert.AreEqual(9, c);
+        }
     }
 }
