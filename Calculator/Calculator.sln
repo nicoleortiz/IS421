@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basiccalculator", "basiccalculator\basiccalculator.csproj", "{00C59ECA-7B81-4465-B48E-1FC4799FC85A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basiccalculator", "basiccalculator\basiccalculator.csproj", "{00C59ECA-7B81-4465-B48E-1FC4799FC85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basiccalculatorTests", "basiccalculatorTests\basiccalculatorTests.csproj", "{D5331C60-01A1-42E8-9CF7-23634422741E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basiccalculatorTests", "basiccalculatorTests\basiccalculatorTests.csproj", "{D5331C60-01A1-42E8-9CF7-23634422741E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOperations\MathOperations.csproj", "{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D5331C60-01A1-42E8-9CF7-23634422741E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5331C60-01A1-42E8-9CF7-23634422741E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5331C60-01A1-42E8-9CF7-23634422741E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

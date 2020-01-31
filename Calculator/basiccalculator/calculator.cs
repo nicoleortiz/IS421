@@ -1,4 +1,5 @@
 ﻿using System;
+using MathOperations;
 
 namespace basiccalculator
 {
@@ -6,9 +7,8 @@ namespace basiccalculator
     {
         static public int Add(int a, int b)
         {
-            var c = a + b;
-
-            return c;
+            return 0;
+            //return Addition.Sum(a,b);
         }
         static public int Subtract(int a, int b)
         {
@@ -30,5 +30,6 @@ namespace basiccalculator
 
             return c;
         }
+        // add square and square root
     }
 }
