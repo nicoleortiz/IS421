@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basiccalculator", "basiccal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basiccalculatorTests", "basiccalculatorTests\basiccalculatorTests.csproj", "{D5331C60-01A1-42E8-9CF7-23634422741E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperations", "MathOperations\MathOperations.csproj", "{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations", "MathOperations\MathOperations.csproj", "{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

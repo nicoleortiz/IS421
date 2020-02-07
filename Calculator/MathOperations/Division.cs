@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MathOperations
+﻿namespace MathOperations
 {
-    internal static class Divide
+    public static class Division
     {
-        static public double Quotient(int a, int b)
+        static public double Quotient(double dividend, double divisor)
         {
-            var c = a / b;
-            return c;
+            return dividend / divisor;
         }
     }
 }

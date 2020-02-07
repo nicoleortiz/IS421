@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MathOperations
+﻿namespace MathOperations
 {
-    internal static class Subtraction
+    public static class Subtraction
     {
-        static public int Difference(int a, int b)
+        static public double Difference(double minuend, double subtrahend)
         {
-            var c = a - b;
-            return c;
+            return minuend - subtrahend;
         }
     }
 }
-

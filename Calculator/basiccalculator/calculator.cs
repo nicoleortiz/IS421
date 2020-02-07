@@ -1,35 +1,53 @@
-﻿using System;
-using MathOperations;
+﻿using MathOperations;
 
 namespace basiccalculator
 {
     public class Calculator
     {
-        static public int Add(int a, int b)
+        static void Main(string[] args)
         {
-            return 0;
-            //return Addition.Sum(a,b);
-        }
-        static public int Subtract(int a, int b)
-        {
-            var c = a - b;
-
-            return c;
+            //Console.WriteLine("Hello World!");
         }
 
-        static public int Multiply(int a, int b)
+        static public dynamic Add(dynamic augend, dynamic addend)
         {
-            var c = a * b;
-
-            return c;
+            var result = Addition.Sum(augend, addend);
+            return result;
         }
 
-        static public double Divide(int a, int b)
+        static public dynamic Add(dynamic dArray)
         {
-            var c = a / b;
-
-            return c;
+            return Addition.Sum(dArray);
         }
-        // add square and square root
+
+        public dynamic Subtract(dynamic minuend, dynamic subtrahend)
+        {
+            return Subtraction.Difference(minuend, subtrahend);
+        }
+
+        public double Multiply(double multiplier, double multiplicand)
+        {
+            return Multiplication.Product(multiplier, multiplicand);
+        }
+
+        static public double Divide(double dividend, double divisor)
+        {
+            return Division.Quotient(dividend, divisor);
+        }
+
+        static public double Exponent(double bbase, double exponent)
+        {
+            return Exponentiation.Power(bbase, exponent);
+        }
+
+        static public double Root(double radicand, double degree)
+        {
+            return Roots.Root(radicand, degree);
+        }
+
+        static public double Log(double antilog, double bbase)
+        {
+            return Logarithms.Logarithm(antilog, bbase);
+        }
     }
 }

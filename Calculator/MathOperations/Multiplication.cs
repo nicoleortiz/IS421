@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MathOperations
+﻿namespace MathOperations
 {
-    internal static class Multiplication
+    public static class Multiplication
     {
-        static public int Product(int a, int b)
+        static public double Product(double multiplicand, double multiplier)
         {
-            var c = a * b;
-            return c;
+            return multiplicand * multiplier;
         }
     }
 }
