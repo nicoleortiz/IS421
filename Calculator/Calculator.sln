@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basiccalculatorTests", "bas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathOperations", "MathOperations\MathOperations.csproj", "{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticsCalculator", "StatisticsCalculator\StatisticsCalculator.csproj", "{D93A3B49-9893-41FD-AA3B-410A8596CF7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41FD3C97-55AF-47CC-84D4-69F9E0DCB305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93A3B49-9893-41FD-AA3B-410A8596CF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93A3B49-9893-41FD-AA3B-410A8596CF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93A3B49-9893-41FD-AA3B-410A8596CF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93A3B49-9893-41FD-AA3B-410A8596CF7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
